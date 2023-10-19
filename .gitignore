@@ -1,0 +1,13 @@
+# local cache
+*.DS_Store
+
+# data
+*.csv
+*.pgn
+*.csv.zst
+*.pgn.zst
+
+# text files
+*.pdf
+*.txt
+*.xlsx
