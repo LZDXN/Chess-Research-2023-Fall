@@ -9,5 +9,6 @@
 
 # text files
 *.pdf
-*.txt
+# *.txt
+sample game.txt
 *.xlsx
