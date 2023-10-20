@@ -7,7 +7,15 @@ This repository contains tools and scripts to download, select, and process game
   - [Requirements](#requirements)
   - [Setup](#setup)
     - [Ubuntu Server Setup](#ubuntu-server-setup)
-    - [Environment Setup](#environment-setup)
+    - [Stockfish Setup](#stockfish-setup)
+    - [Julia Environment Setup](#julia-environment-setup)
+      - [1. Install Julia:](#1-install-julia)
+      - [2. Install Julia Packages:](#2-install-julia-packages)
+      - [3. Integrate with Python:](#3-integrate-with-python)
+      - [4. Additional Julia Packages:](#4-additional-julia-packages)
+      - [5. Verify Integration:](#5-verify-integration)
+      - [6. Jupyter Notebook Integration (Optional):](#6-jupyter-notebook-integration-optional)
+    - [Environment Setup (Python and Julia)](#environment-setup-python-and-julia)
     - [Docker Setup (TODO: Optional)](#docker-setup-todo-optional)
   - [Data Collection and Processing](#data-collection-and-processing)
   - [Expected Output (TODO)](#expected-output-todo)
@@ -16,6 +24,7 @@ This repository contains tools and scripts to download, select, and process game
 - Ubuntu (preferably the latest version)
 - Python (Version 3.x)
 - Stockfish Engine
+- Julia and the `PyCall` package
 - Internet connection for downloading games from Lichess
 
 ## Setup
@@ -30,7 +39,73 @@ sudo apt-get upgrade
 sudo apt-get install python3 python3-pip
 ```
 
-### Environment Setup
+### Stockfish Setup
+
+1. **Clone the Stockfish Repository**:
+   ```bash
+   git clone https://github.com/official-stockfish/Stockfish.git
+   ```
+
+2. **Navigate to the Stockfish Source Directory**:
+   ```bash
+   cd Stockfish/src
+   ```
+
+3. **Compile Stockfish**:
+   For most modern CPUs on 64-bit systems:
+   ```bash
+   make -j build ARCH=x86-64-modern
+   ```
+
+   If unsure about your architecture or the right target, refer to Stockfish's [official documentation](https://github.com/official-stockfish/Stockfish) for guidance.
+
+### Julia Environment Setup
+
+#### 1. Install Julia:
+- **Linux**:
+  ```bash
+  sudo apt-get update
+  sudo apt-get install julia
+  ```
+
+#### 2. Install Julia Packages:
+Start Julia by typing `julia` in your terminal.
+
+```julia
+using Pkg
+Pkg.add("PyCall")
+```
+
+#### 3. Integrate with Python:
+Set the `PYTHON` environment variable in Julia if needed:
+
+```julia
+ENV["PYTHON"] = "/path_to_desired_python"
+using Pkg
+Pkg.build("PyCall")
+```
+
+#### 4. Additional Julia Packages:
+
+```julia
+Pkg.add("DataFrames")
+Pkg.add("Plots")
+```
+
+#### 5. Verify Integration:
+
+```julia
+using PyCall
+np = pyimport("numpy")
+```
+
+#### 6. Jupyter Notebook Integration (Optional):
+
+```julia
+Pkg.add("IJulia")
+```
+
+### Environment Setup (Python and Julia)
 ```bash
 # Clone the repository
 git clone https://github.com/LZDXN/Chess-Research-2023-Fall.git
@@ -40,13 +115,9 @@ cd Chess-Research-2023-Fall/
 
 # Install required Python libraries
 pip3 install -r requirements.txt
-
-# Download and set up Stockfish
-# [TODO: Add instructions for Stockfish setup]
 ```
 
-### Docker Setup (TODO: Optional)
-Docker can be utilized to make the setup and execution more streamlined. We'll provide Docker configurations in the future. If you're experienced with Docker, feel free to contribute!
+### [Docker Setup (TODO: Optional)](./Docker.md)
 
 ## Data Collection and Processing
 1. **Data Source**: 
