@@ -63,10 +63,13 @@ sudo apt-get install python3 python3-pip
 
 #### 1. Install Julia:
 - **Linux**:
-  ```bash
-  sudo apt-get update
-  sudo apt-get install julia
-  ```
+```bash
+sudo apt-get update
+<!-- sudo apt-get install julia -->
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.3-linux-x86_64.tar.gz
+tar zxvf julia-1.9.3-linux-x86_64.tar.gz
+export PATH="$PATH:/path/to/<Julia directory>/bin"
+```
 
 #### 2. Install Julia Packages:
 Start Julia by typing `julia` in your terminal.
