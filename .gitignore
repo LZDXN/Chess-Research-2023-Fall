@@ -6,6 +6,7 @@
 *.pgn
 *.csv.zst
 *.pgn.zst
+/data/*
 
 # text files
 *.pdf
