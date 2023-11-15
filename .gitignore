@@ -7,6 +7,9 @@
 *.csv.zst
 *.pgn.zst
 /data/*
+*.ipynb_checkpoints/*
+
+
 
 # text files
 *.pdf
