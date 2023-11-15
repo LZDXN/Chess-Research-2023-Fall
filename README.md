@@ -42,22 +42,22 @@ sudo apt-get install python3 python3-pip
 ### Stockfish Setup
 
 1. **Clone the Stockfish Repository**:
-   ```bash
-   git clone https://github.com/official-stockfish/Stockfish.git
-   ```
+```bash
+git clone https://github.com/official-stockfish/Stockfish.git
+```
 
 2. **Navigate to the Stockfish Source Directory**:
-   ```bash
-   cd Stockfish/src
-   ```
+```bash
+cd Stockfish/src
+```
 
 3. **Compile Stockfish**:
-   For most modern CPUs on 64-bit systems:
-   ```bash
-   make -j build ARCH=x86-64-modern
-   ```
+For most modern CPUs on 64-bit systems:
+```bash
+make -j build ARCH=x86-64-modern
+```
 
-   If unsure about your architecture or the right target, refer to Stockfish's [official documentation](https://github.com/official-stockfish/Stockfish) for guidance.
+If unsure about your architecture or the right target, refer to Stockfish's [official documentation](https://github.com/official-stockfish/Stockfish) for guidance.
 
 ### Julia Environment Setup
 
@@ -65,7 +65,6 @@ sudo apt-get install python3 python3-pip
 - **Linux**:
 ```bash
 sudo apt-get update
-<!-- sudo apt-get install julia -->
 wget https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.3-linux-x86_64.tar.gz
 tar zxvf julia-1.9.3-linux-x86_64.tar.gz
 export PATH="$PATH:/path/to/<Julia directory>/bin"
@@ -125,10 +124,8 @@ pip3 install -r requirements.txt
 ## Data Collection and Processing
 1. **Data Source**: 
    - Download the data from [Lichess September 2023 dataset](https://database.lichess.org/).
-   
 2. **Data Collection**: 
    - Focus on specific time controls and ELO ranges as detailed in the instructions.
-   
 3. **Data Processing**: 
    - Use Stockfish to evaluate each position in the selected games. 
    - Retrieve evaluations for the move played in the game and the top 5 recommended moves by Stockfish.

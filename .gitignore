@@ -8,7 +8,8 @@
 *.pgn.zst
 /data/*
 *.ipynb_checkpoints/*
-
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
 
 
 # text files
