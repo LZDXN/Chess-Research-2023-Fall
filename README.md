@@ -115,6 +115,9 @@ git clone https://github.com/LZDXN/Chess-Research-2023-Fall.git
 # Navigate to the repository
 cd Chess-Research-2023-Fall/
 
+# Install required Julia libraries
+julia install.jl
+
 # Install required Python libraries
 pip3 install -r requirements.txt
 ```
