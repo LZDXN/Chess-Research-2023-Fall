@@ -11,6 +11,11 @@
 .ipynb_checkpoints/
 .ipynb_checkpoints/*
 
+# log
+/log/*
+
+# archived
+archived/*
 
 # text files
 *.pdf
