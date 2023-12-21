@@ -8,17 +8,11 @@ This repository contains tools and scripts to download, select, and process game
   - [Setup](#setup)
     - [Ubuntu Server Setup](#ubuntu-server-setup)
     - [Stockfish Setup](#stockfish-setup)
-    - [Julia Environment Setup](#julia-environment-setup)
+    - [Environment Setup](#environment-setup)
       - [1. Install Julia:](#1-install-julia)
-      - [2. Install Julia Packages:](#2-install-julia-packages)
-      - [3. Integrate with Python:](#3-integrate-with-python)
-      - [4. Additional Julia Packages:](#4-additional-julia-packages)
-      - [5. Verify Integration:](#5-verify-integration)
-      - [6. Jupyter Notebook Integration (Optional):](#6-jupyter-notebook-integration-optional)
-    - [Environment Setup (Python and Julia)](#environment-setup-python-and-julia)
-    - [Docker Setup (TODO: Optional)](#docker-setup-todo-optional)
+      - [2. Install Julia and Python Packages:](#2-install-julia-and-python-packages)
   - [Data Collection and Processing](#data-collection-and-processing)
-  - [Expected Output (TODO)](#expected-output-todo)
+- [Expected Output](#expected-output)
 
 ## Requirements
 - Ubuntu (preferably the latest version)
@@ -59,55 +53,18 @@ make -j profile-build ARCH=x86-64-avx2
 
 If unsure about your architecture or the right target, refer to Stockfish's [official documentation](https://github.com/official-stockfish/Stockfish) for guidance.
 
-### Julia Environment Setup
+### Environment Setup
 
 #### 1. Install Julia:
 - **Linux**:
 ```bash
 sudo apt-get update
-wget https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.3-linux-x86_64.tar.gz
-tar zxvf julia-1.9.3-linux-x86_64.tar.gz
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.9/julia-1.9.4-linux-x86_64.tar.gz
+tar zxvf julia-1.9.4-linux-x86_64.tar.gz
 export PATH="$PATH:/path/to/<Julia directory>/bin"
 ```
 
-#### 2. Install Julia Packages:
-Start Julia by typing `julia` in your terminal.
-
-```julia
-using Pkg
-Pkg.add("PyCall")
-```
-
-#### 3. Integrate with Python:
-Set the `PYTHON` environment variable in Julia if needed:
-
-```julia
-ENV["PYTHON"] = "/path_to_desired_python"
-using Pkg
-Pkg.build("PyCall")
-```
-
-#### 4. Additional Julia Packages:
-
-```julia
-Pkg.add("DataFrames")
-Pkg.add("Plots")
-```
-
-#### 5. Verify Integration:
-
-```julia
-using PyCall
-np = pyimport("numpy")
-```
-
-#### 6. Jupyter Notebook Integration (Optional):
-
-```julia
-Pkg.add("IJulia")
-```
-
-### Environment Setup (Python and Julia)
+#### 2. Install Julia and Python Packages:
 ```bash
 # Clone the repository
 git clone https://github.com/LZDXN/Chess-Research-2023-Fall.git
@@ -122,8 +79,6 @@ julia install.jl
 pip3 install -r requirements.txt
 ```
 
-### [Docker Setup (TODO: Optional)](./Docker.md)
-
 ## Data Collection and Processing
 1. **Data Source**: 
    - Download the data from [Lichess September 2023 dataset](https://database.lichess.org/).
@@ -133,4 +88,5 @@ pip3 install -r requirements.txt
    - Use Stockfish to evaluate each position in the selected games. 
    - Retrieve evaluations for the move played in the game and the top 5 recommended moves by Stockfish.
 
-## Expected Output (TODO)
+# Expected Output
+![](./documents/Pipeline_one.md)
