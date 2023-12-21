@@ -2,7 +2,7 @@
 *.DS_Store
 
 # data
-*.csv
+# *.csv
 *.pgn
 *.csv.zst
 *.pgn.zst
