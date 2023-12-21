@@ -2,7 +2,7 @@
 *.DS_Store
 
 # data
-*.csv
+# *.csv
 *.pgn
 *.csv.zst
 *.pgn.zst
@@ -11,6 +11,11 @@
 .ipynb_checkpoints/
 .ipynb_checkpoints/*
 
+# log
+# /log/*
+
+# archived
+archived/*
 
 # text files
 *.pdf

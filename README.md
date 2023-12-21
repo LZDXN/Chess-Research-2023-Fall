@@ -54,7 +54,7 @@ cd Stockfish/src
 3. **Compile Stockfish**:
 For most modern CPUs on 64-bit systems:
 ```bash
-make -j build ARCH=x86-64-modern
+make -j profile-build ARCH=x86-64-avx2
 ```
 
 If unsure about your architecture or the right target, refer to Stockfish's [official documentation](https://github.com/official-stockfish/Stockfish) for guidance.

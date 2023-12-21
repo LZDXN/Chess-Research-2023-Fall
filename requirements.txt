@@ -1,3 +1,7 @@
 python-chess==1.999
-jupyter==1.0.0
 notebook==7.0.6
+jupyter==1.0.0
+jupyter-contrib-nbextensions==0.7.0
+jupyter-nbextensions-configurator==0.6.3
+traitlets==5.14.0
+pyzmq==24.0.1
