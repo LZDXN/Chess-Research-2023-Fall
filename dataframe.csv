@@ -1,0 +1,2 @@
+MoveId,RemainingTime,MovePlayed,MovePlayedEval,ProcessTime,NumberofNodes,best_move_1,best_score_1,ProcessTime_1,NumberofNodes_1,best_move_2,best_score_2,ProcessTime_2,NumberofNodes_2,best_move_3,best_score_3,ProcessTime_3,NumberofNodes_3,best_move_4,best_score_4,ProcessTime_4,NumberofNodes_4,best_move_5,best_score_5,ProcessTime_5,NumberofNodes_5
+0,1800.0,d2d4,,0.0,0,d7d5,15,0.002,1394,e7e6,41,0.002,1394,g8f6,46,0.002,1394,c7c6,49,0.002,1394,c7c5,64,0.002,1394
