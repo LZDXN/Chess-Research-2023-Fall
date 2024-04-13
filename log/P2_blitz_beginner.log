@@ -1,0 +1,56 @@
+
+Game 1 ......
+Spent 0.0029740333557128906 to initialize engine
+Move 0 processing...Cp(1) is 41; Cp(2) is 35; Cp(3) is 32; Cp(4) is 26; Cp(5) is 21; 
+Move 1 processing...Cp(1) is 39; Cp(2) is 41; Cp(3) is 45; Cp(4) is 45; Cp(5) is 55; 
+Move 2 processing...Cp(1) is 67; Cp(2) is 49; Cp(3) is 44; Cp(4) is 42; Cp(5) is 30; 
+Move 3 processing...Cp(1) is 21; Cp(2) is 65; Cp(3) is 73; Cp(4) is 74; Cp(5) is 78; 
+Move 4 processing...Cp(1) is 67; Cp(2) is 46; Cp(3) is 37; Cp(4) is 32; Cp(5) is 30; 
+Move 5 processing...Cp(1) is 60; Cp(2) is 69; Cp(3) is 72; Cp(4) is 76; Cp(5) is 81; 
+Move 6 processing...Cp(1) is 115; Cp(2) is 111; Cp(3) is 108; Cp(4) is 104; Cp(5) is 93; 
+Move 7 processing...Cp(1) is 60; Cp(2) is 66; Cp(3) is 67; Cp(4) is 77; Cp(5) is 87; 
+Move 8 processing...Cp(1) is 73; Cp(2) is 66; Cp(3) is 53; Cp(4) is 46; Cp(5) is 39; 
+Move 9 processing...Cp(1) is 62; Cp(2) is 81; Cp(3) is 82; Cp(4) is 89; Cp(5) is 94; 
+Move 10 processing...Cp(1) is 70; Cp(2) is 63; Cp(3) is 60; Cp(4) is 32; Cp(5) is 25; 
+Move 11 processing...Cp(1) is 51; Cp(2) is 53; Cp(3) is 64; Cp(4) is 64; Cp(5) is 96; 
+Move 12 processing...Cp(1) is 69; Cp(2) is -267; Cp(3) is -315; Cp(4) is -340; Cp(5) is -354; 
+Move 13 processing...Cp(1) is 62; Cp(2) is 74; Cp(3) is 77; Cp(4) is 89; Cp(5) is 107; 
+Move 14 processing...Cp(1) is 67; Cp(2) is 57; Cp(3) is 48; Cp(4) is 46; Cp(5) is 43; 
+Move 15 processing...Cp(1) is 75; Cp(2) is 79; Cp(3) is 86; Cp(4) is 102; Cp(5) is 363; 
+Move 16 processing...Cp(1) is 104; Cp(2) is 103; Cp(3) is 90; Cp(4) is 69; Cp(5) is 66; 
+Move 17 processing...Cp(1) is 92; Cp(2) is 142; Cp(3) is 142; Cp(4) is 147; Cp(5) is 173; 
+Move 18 processing...Cp(1) is 307; Cp(2) is 233; Cp(3) is 217; Cp(4) is 207; Cp(5) is 202; 
+Move 19 processing...Cp(1) is 212; Cp(2) is 241; Cp(3) is 248; Cp(4) is 260; Cp(5) is 268; 
+Move 20 processing...Cp(1) is 369; Cp(2) is 287; Cp(3) is 224; Cp(4) is 220; Cp(5) is 216; 
+Move 21 processing...Cp(1) is 120; Cp(2) is 193; Cp(3) is 227; Cp(4) is 237; Cp(5) is 272; 
+Move 22 processing...Cp(1) is 207; Cp(2) is 195; Cp(3) is 193; Cp(4) is 182; Cp(5) is 176; 
+Move 23 processing...Cp(1) is 132; Cp(2) is 152; Cp(3) is 165; Cp(4) is 168; Cp(5) is 182; 
+Move 24 processing...Cp(1) is 256; Cp(2) is 178; Cp(3) is 167; Cp(4) is 166; Cp(5) is 146; 
+Move 25 processing...Cp(1) is 131; Cp(2) is 148; Cp(3) is 175; Cp(4) is 176; Cp(5) is 188; 
+Move 26 processing...Cp(1) is 205; Cp(2) is 139; Cp(3) is 129; Cp(4) is 119; Cp(5) is 114; 
+Move 27 processing...Cp(1) is 193; Cp(2) is 208; Cp(3) is 216; Cp(4) is 241; Cp(5) is 256; 
+Move 28 processing...Cp(1) is 274; Cp(2) is 185; Cp(3) is 126; Cp(4) is 107; Cp(5) is 104; 
+Move 29 processing...Cp(1) is 284; Cp(2) is 365; Cp(3) is 367; 
+Move 30 processing...Cp(1) is 352; Cp(2) is 321; Cp(3) is 136; Cp(4) is 103; Cp(5) is 37; 
+Move 31 processing...Cp(1) is 363; Cp(2) is 378; Cp(3) is 378; Cp(4) is 379; Cp(5) is 390; 
+Move 32 processing...Cp(1) is 503; Cp(2) is 495; Cp(3) is 424; Cp(4) is 374; Cp(5) is 302; 
+Move 33 processing...Cp(1) is 537; Cp(2) is 657; Cp(3) is 704; Cp(4) is 715; Cp(5) is 717; 
+Move 34 processing...Cp(1) is 532; Cp(2) is 499; Cp(3) is 497; Cp(4) is 495; Cp(5) is 449; 
+Move 35 processing...Cp(1) is 438; Cp(2) is 556; Cp(3) is 578; Cp(4) is 581; Cp(5) is 628; 
+Move 36 processing...Cp(1) is 746; Cp(2) is 716; Cp(3) is 690; Cp(4) is 685; Cp(5) is 665; 
+Move 37 processing...Cp(1) is -114; Cp(2) is 470; Cp(3) is 539; Cp(4) is 576; Cp(5) is 583; 
+Move 38 processing...Cp(1) is -130; Cp(2) is -296; Cp(3) is -320; Cp(4) is -339; Cp(5) is -343; 
+Game 1 whole process time: 255.50408005714417, number of games: 38
+Game 2 ......
+Spent 1.5020370483398438e-5 to initialize engine
+Move 0 processing...Cp(1) is 37; Cp(2) is 31; Cp(3) is 26; Cp(4) is 24; Cp(5) is 12; 
+Move 1 processing...Cp(1) is 28; Cp(2) is 29; Cp(3) is 32; Cp(4) is 41; Cp(5) is 43; 
+Move 2 processing...Cp(1) is 41; Cp(2) is 37; Cp(3) is 25; Cp(4) is 15; Cp(5) is 14; 
+Move 3 processing...Cp(1) is 44; Cp(2) is 69; Cp(3) is 72; Cp(4) is 75; Cp(5) is 80; 
+Move 4 processing...Cp(1) is 118; Cp(2) is 89; Cp(3) is 62; Cp(4) is 62; Cp(5) is 0; 
+Move 5 processing...Cp(1) is 62; Cp(2) is 89; Cp(3) is 90; Cp(4) is 100; Cp(5) is 102; 
+Move 6 processing...Cp(1) is 106; Cp(2) is 97; Cp(3) is 96; Cp(4) is 92; Cp(5) is 74; 
+Move 7 processing...Cp(1) is 92; Cp(2) is 94; Cp(3) is 98; Cp(4) is 103; Cp(5) is 104; 
+Move 8 processing...Cp(1) is 111; Cp(2) is 99; Cp(3) is 99; Cp(4) is 90; Cp(5) is 83; 
+Move 9 processing...Cp(1) is 111; Cp(2) is 122; Cp(3) is 124; Cp(4) is 131; Cp(5) is 139; 
+Move 10 processing...
